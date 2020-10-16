@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'AvenirMedium';
+        src: url('Metropolis-Medium.otf');
+    }
+    body {
+        margin: 0 auto;
+    }
+
+    .navBar {
+        height: 66px;
+        border: 1px solid rgba(0, 0, 0, 0.1)
+    }
+    .navBar {
+        display: flex;
+        flex-wrap: wrap; /* all flex items will be on multiple lines */
+        flex-direction: row;
+        justify-content: flex-start; /* (default): items are packed toward the start of the flex-direction. */
+        align-items: center; /* Align Items Vertically */
+    }
+    .navBar a:nth-child(1) { 
+        color: #FC6E51;
+        border-bottom: 3px solid #FC6E51;
+    }
+    .navBar a {
+        text-decoration: none;
+        color: #453937;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'AvenirMedium';
+    }
+    .navBar a {
+        padding: 12px;
+        padding-bottom: 8px;
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <nav class="navBar">
+        <a href="">Today</a>
+        <a href="">Grocery List</a>
+    </nav>
+</body>
+
+</html>
