@@ -4,3 +4,4 @@ Navigation Bar:
 ![Image of Navigation Bars](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/2.png)
 Search Bar: 
 ![Image of Search Bars](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/1.png)
+![Image of Profile Cards](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/card.png)
