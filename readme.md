@@ -4,10 +4,15 @@ I will post some of codes that i Wrote as an template for responsive And Standar
 
 
 Navigation Bar: 
+
 ![Image of Navigation Bars](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/2.png)
+
 Search Bar: 
+
 ![Image of Search Bars](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/1.png)
+
 Profile Card: 
+
 ![Image of Profile Cards](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/card.png)
 Login Form: 
 ![Image of Login Form](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/login.png)
