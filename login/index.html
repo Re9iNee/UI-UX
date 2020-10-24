@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        /* hard Coding: */
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 12px;
+            width: 287px;
+        }
+
+        /* details */
+        .container {
+            box-shadow: 0px 1px 3px #464153;
+        }
+
+        .inputIcon input {
+            border: 1px solid rgba(69, 57, 55, .3);
+        }
+        .login button {
+            background-color: #FC6E51;
+            border: none;
+        }
+        .cornerRadius {
+            border-radius: 3px;
+        }
+        a {
+            text-decoration: none;
+        }
+
+
+        /* Display */
+        .login {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .login button {
+            padding: 12px;
+        }
+        .login button, .login div {
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        /* Input and Icons Display*/
+        .inputIcon {
+            display: grid;
+            grid-template-columns: 24px 1fr;
+            grid-template-rows: 1fr;
+        }
+        .inputIcon input {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row:  1 / 1;
+        }
+        .inputIcon img {
+            grid-column-start: 1;
+            grid-column-end:  1;
+            grid-row:  1 / 1;
+            z-index: 2;
+
+            margin: 12px;
+        }
+        .inputIcon input {
+            padding-left: 37px;
+        }
+
+        /* TypoGraphy */
+        @font-face {
+            font-family: 'AvenirBook';
+            src: url('../fonts/Avenir Book.otf');
+        }
+
+        @font-face {
+            font-family: "AvenirHeavy";
+            src: url("../fonts/AvenirHeavy.otf");
+        }
+
+        body {
+            font-family: "AvenirBook";
+        }
+
+        form button {
+            font-variant-caps: all-small-caps;
+            color: white;
+            font-size: 16px;
+            font-family: "AvenirHeavy";
+        }
+
+        .links * {
+            color: #453937;
+            line-height: 16px;
+            opacity: .5;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container cornerRadius">
+        <form class="login">
+            <div class="inputIcon">
+                <img src="./user.png" alt="">
+                <input type="text" class="cornerRadius" name="username" placeholder="Username" tabindex="1" autofocus required>
+            </div>
+            <div class="inputIcon">
+                <img src="./lock.png" alt="">
+                <input type="password" class="cornerRadius" name="password" placeholder="Password" tabindex="2" required>
+            </div>
+            <button type="submit"  class="cornerRadius" tabindex="3">login</button>
+            <div class="links" tabindex="4">
+                <a href="#">Create Account</a>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

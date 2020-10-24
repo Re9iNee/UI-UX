@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputIcon {
+            border: coral 1px solid;
+            display: grid;
+            grid-template-columns: 24px 1fr;
+            grid-template-rows: 1fr;
+        }
+        .inputIcon input {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row:  1 / 1;
+        }
+        .inputIcon img {
+            grid-column-start: 1;
+            grid-column-end:  1;
+            grid-row:  1 / 1;
+            z-index: 2;
+
+            margin: 12px;
+        }
+        .inputIcon input {
+            padding-left: 37px;
+        }
+    </style>
+</head>
+<body>
+    <div class="inputIcon">
+        <img src="./lock.png" alt="">
+        <input type="password" name="password" placeholder="Password" tabindex="2">
+    </div>
+    
+</body>
+</html>
