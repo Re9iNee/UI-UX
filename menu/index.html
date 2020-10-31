@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        /* details */
+        .menu {
+            background-color: #3D3533;
+        }
+
+        /* TypoGraphy */
+        @font-face {
+            font-family: 'AvenirBook';
+            src: url('../fonts/Avenir Book.otf');
+        }
+
+        body {
+            color: white;
+            font-size: 16px;
+            font-family: 'AvenirBook';
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-family: 'AvenirBook';
+        }
+
+        .menu-item {
+            letter-spacing: .333px;
+        }
+
+        .menu-item.selected {
+            color: #FC6E51;
+        }
+
+        /* Display */
+        body {
+            margin: auto 0;
+            height: 100vh;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            max-width: 250px;
+            height: 100%;
+        }
+
+        .menu-item {
+            display: grid;
+            grid-template-columns: [icon] 40px [content] 1fr [subgroup] 40px;
+            align-items: center;
+        }
+
+        .menu-item>* {
+            padding: 12px;
+        }
+
+
+        /* Animations */
+        .menu-item img:nth-child(3):hover {
+            transform: rotate(180deg);
+        }
+
+        .menu-item img:nth-child(3) {
+            transform: rotate(0deg);
+            transition: all .3s ease-out;
+        }
+        .menu-item:not(.selected):hover {
+            background-color: #605350;
+        }
+        /* 😌 */
+        /* .menu-item:not(.selected):hover img:hover {
+            filter: url(#hoverFilter);
+        } */
+
+
+        /* .menu {
+            transform: translate3d(-100%, 0, 0);
+            transition: .5s all ease-in-out;
+        }
+        .showMenu {
+            transform: translate3d(0, 0, 0);
+        } */
+
+        /* SVGs */
+        .selected img {
+            filter: url("#selectedFilter")
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <svg style="display: none;" id="svg">
+        <defs>
+            <filter id="selectedFilter">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values="0.99 0   0   0   0
+                      0   0.43  0   0   0
+                      0   0   0.32  0   0
+                      0   0   0   1   0 " />
+            </filter>
+            <filter id="hoverFilter">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values="0.31 0   0   0   0
+                      0   0.76  0   0   0
+                      0   0   0.91  0   0
+                      0   0   0   1   0 " />
+            </filter>
+        </defs>
+    </svg>
+    <div class="menu">
+        <a class="menu-item selected" href="#!home">
+            <img src="./icons/home.svg" onerror="this.onerror=null; this.src='./icons/home.png'" alt="home icon">
+            <div>Home</div>
+        </a>
+        <a class="menu-item" href="#!profile">
+            <img onerror="this.onerror=null; this.src='./icons/User.png'" src="./icons/User.svg" alt="profile icon">
+            <div>My Profile</div>
+        </a>
+        <a class="menu-item" href="#!myRecipes">
+            <img src="./icons/notebook.png" alt="notebook icon">
+            <div>My Recipes</div>
+        </a>
+        <a class="menu-item" href="#!friends">
+            <img src="./icons/Emotsmile.png" alt="smile icon">
+            <div>Friends</div>
+        </a>
+        <a class="menu-item" href="#!shopList">
+            <img src="./icons/List.png" alt="list icon">
+            <div>Shopping List</div>
+        </a>
+        <a class="menu-item" href="#!analytics">
+            <img src="./icons/Graph.png" alt="graph icon">
+            <div>Analytics</div>
+            <img src="./icons/subGroup.png" alt="subGroup icon">
+        </a>
+        <a class="menu-item" href="#!settings">
+            <img src="./icons/settings.png" alt="settings icon">
+            <div>Settings</div>
+            <img src="./icons/subGroup.png" alt="subGroup icon">
+        </a>
+    </div>
+</body>
+</html>

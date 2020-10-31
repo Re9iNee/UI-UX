@@ -19,3 +19,11 @@ Profile Card:
 Login Form: 
 
 ![Image of Login Form](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/login.png)
+
+
+Menu Bar: 
+
+![Image of Menu Bar in iPhone5s Responsive](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/MenuBar.png)
+ 
+
+![Image of Menu Bar in Wide Screen Displays ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/MenuBar2.png)
