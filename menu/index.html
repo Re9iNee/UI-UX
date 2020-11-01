@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
     <title>Menu</title>
     <style>
         /* details */
@@ -78,14 +80,12 @@
             filter: url(#hoverFilter);
         } */
 
-
-        /* .menu {
-            transform: translate3d(-100%, 0, 0);
+        .menu {
             transition: .5s all ease-in-out;
         }
-        .showMenu {
-            transform: translate3d(0, 0, 0);
-        } */
+        .menu.ng-hide {
+            transform: translate3d(-100%, 0, 0);
+        }
 
         /* SVGs */
         .selected img {
@@ -95,8 +95,7 @@
     </style>
 </head>
 
-<body>
-
+<body ng-app="myApp" ng-init="toggle=true">
     <svg style="display: none;" id="svg">
         <defs>
             <filter id="selectedFilter">
@@ -113,7 +112,8 @@
             </filter>
         </defs>
     </svg>
-    <div class="menu">
+    <input type="checkbox" ng-model="toggle">
+    <div class="menu" ng-show="toggle">
         <a class="menu-item selected" href="#!home">
             <img src="./icons/home.svg" onerror="this.onerror=null; this.src='./icons/home.png'" alt="home icon">
             <div>Home</div>
@@ -146,4 +146,8 @@
         </a>
     </div>
 </body>
+<script>
+    let app = angular.module('myApp', ['ngAnimate']);
+
+</script>
 </html>
