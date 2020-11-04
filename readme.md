@@ -29,7 +29,7 @@ Menu Bar:
 ![Image of Menu Bar in Wide Screen Displays ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/MenuBar2.png)
 
 
-![Image of Recipes Card ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/Recipes Card 2.png)
+![Image of Recipes Card ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/RecipesCard2.png)
 
 
-![Image of Recipes Card in iPhone SE Displays](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/Recipes Card.png)
+![Image of Recipes Card in iPhone SE Displays](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/RecipesCard.png)
