@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Card</title>
+    <style>
+        body {
+            margin: 0 auto;
+        }
+        .container {
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(48, 50, 70, 0.2);
+            max-width: 568px;
+        }
+
+        /* Typography: */
+        @font-face {
+            font-family: 'AvenirBook';
+            src: url('../fonts/Avenir Book.otf');
+        }
+
+        @font-face {
+            font-family: 'AvenirMedium';
+            src: url('../fonts/AvenirExtraLight.otf');
+        }
+
+        body {
+            font-family: "AvenirMedium";
+        }
+
+        .title {
+            font-family: 'AvenirBook';
+            line-height: 33px;
+            font-size: 24px;
+        }
+
+        .author {
+            font-family: "AvenirMedium";
+            font-size: 16px;
+        }
+
+
+        /* Display: */
+        .container {
+            margin: 12px;
+
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .container>* {
+            width: 100%;
+        }
+
+        .container>*:not(.img) {
+            padding: 12px 0px;
+            width: 95%;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .rating {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: row;
+            /* width: 25%; */
+            /* justify-content: space-around; */
+        }
+
+        .options>*,
+        .rating > * {
+            padding: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="./extras/chicken-pho1.png" width="100%" alt="picture of a dish">
+        </div>
+        <div class="title">Spicy Chicken Pho</div>
+        <div class="author">By Lenora Morales </div>
+        <div class="footer">
+            <div class="rating">
+                <div class="stars">
+                    <img src="./extras/icons/FullStar.svg" alt="">
+                    <img src="./extras/icons/FullStar.svg" alt="">
+                    <img src="./extras/icons/FullStar.svg" alt="">
+                    <img src="./extras/icons/FullStar.svg" alt="">
+                    <img src="./extras/icons/BlankStar.svg" alt="">
+                </div>
+                <div class="score">34</div>
+            </div>
+            <div class="options">
+                <div class="bookmark"><img src="./extras/icons/Bookmark.svg" alt=""></div>
+                <div class="subgroup">
+                    <img src="./extras/icons/subGroup.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
