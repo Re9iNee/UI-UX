@@ -29,6 +29,8 @@ Menu Bar:
 ![Image of Menu Bar in Wide Screen Displays ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/MenuBar2.png)
 
 
+Recipes Card:
+
 ![Image of Recipes Card ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/RecipesCard2.png)
 
 
