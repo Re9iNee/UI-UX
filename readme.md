@@ -35,3 +35,8 @@ Recipes Card:
 
 
 ![Image of Recipes Card in iPhone SE Displays](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/RecipesCard.png)
+
+
+
+Greetings: 
+![Image of Todo List Greeting ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/Greetings.png)

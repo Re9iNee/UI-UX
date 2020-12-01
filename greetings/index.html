@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Greetings in flex 2.0</title>
+    <style>
+        body {
+            margin: 0 auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        /* Debugging Purpose */
+        /* .container {
+            border: 1px solid black;
+        }
+
+        body {
+            border: 1px dotted green;
+        }
+
+        .container * {
+            border: .5px dotted brown;
+        } */
+
+        /* Display: */
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Media Queries */
+        @media screen and (min-width: 618px) {
+            body {
+                display: flex;
+                justify-content: center;
+            }
+            .container {
+                max-width: 50%;
+            }
+        }
+
+
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+
+
+        /* Typography */
+        @font-face {
+            font-family: 'AvenirMedium';
+            src: url('/fonts/AvenirExtraLight.otf');
+        }
+
+        @font-face {
+            font-family: "AvenirBook";
+            src: url("/fonts/Avenir Book.otf");
+        }
+
+        .texts p {
+            font-family: "AvenirMedium";
+            font-size: .8rem;
+        }
+
+        .texts h1 {
+            font-family: "AvenirBook";
+            font-size: 1.1rem;
+        }
+
+        .button button {
+            font-family: "AvenirBook";
+            font-size: 1.1rem;
+        }
+
+        /* Margins And Paddings */
+        .button button {
+            padding: 12px;
+            width: 100%;
+        }
+
+        .contents>* {
+            padding: 12px;
+        }
+
+        .container { 
+            margin: 2rem 0;
+        }
+
+        /* Details */
+        .button button {
+            color: white;
+            background-color: #07d8b6;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <section class="image"><img src="./grocery-cart.png" alt=""></section>
+        <section class="contents">
+            <section class="texts">
+                <h1>Get Organized Your Life</h1>
+                <p>Tudy is a simple and effective to-do list and task manager app which helps you manage time.</p>
+            </section>
+            <section class="button"><button>Get Started</button></section>
+        </section>
+    </section>
+</body>
+
+</html>
