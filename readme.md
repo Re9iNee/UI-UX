@@ -40,3 +40,9 @@ Recipes Card:
 
 Greetings: 
 ![Image of Todo List Greeting ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/Greetings.png)
+
+
+
+# Smaller Modules
+iOs Toggle Checkbox in Pure Css
+![Video of iOs Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
