@@ -45,6 +45,7 @@ Greetings:
 
 # Smaller Modules
 
-
 IOS Toggle Checkbox in Pure Css:
+
+
 ![Video of iOs Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
