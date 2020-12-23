@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0 auto;
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+            width: 100vw;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        /* Dev only */
+        body {
+            /* border: red solid 2px; */
+        }
+
+        section {
+            /* border: 1px solid green; */
+        }
+
+        /* Displays */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inlineError {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+
+        .passwordInput {
+            display: grid;
+            grid-template-rows: 75px;
+            grid-template-columns: 350 44px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .input {
+            grid-column: 1 / 3;
+            grid-row: 1;
+        }
+
+        .vibsilityToggle {
+            grid-column: 2 / 3;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Margins And Paddings */
+        .container {
+            padding: 20px;
+            margin: 4px;
+        }
+        .container>* {
+            margin: 12px 0;
+        }
+        .inlineError > .svg {
+            margin-right: 12px;
+        }
+        .input {
+            padding: 12px;
+        }
+        .vibsilityToggle {
+            margin-right: 12px;
+        }
+
+
+
+
+        /* Details: */
+        .container {
+            width: 474px;
+            border-radius: 24px;
+            background-color: rgba(251, 251, 255, .15);
+            box-shadow: 0  0 40px rgba(0, 0, 0, .15);
+        }
+
+        .input {
+            height: 100%;
+            border-radius: 14px;
+            border: none;
+            background-color: #EFEFEF;
+            font-size: 20px;
+            box-shadow: 0  0 1px rgba(0, 0, 0, .5);
+            outline: none;
+        }
+        .input::placeholder {
+            /* text-align: center; */
+            /* margin-left: 10px; */
+        }
+
+        .vibsilityToggle {
+            /* iOS Guidlines */
+            width: 44px;
+            height: 44px;
+        }
+
+
+        /* TypoGraphy */
+        @font-face {
+            font-family: "AvenirHeavy";
+            src: url("./extras/AvenirHeavy.otf");
+        }
+
+        body {
+            font-family: "AvenirHeavy";
+            text-align: left;
+        }
+        .input {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .errorText {
+            font-size: 14px;
+        }
+    </style>
+    <title>New Password</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="header">New Password</h1>
+        <section class="passwordInput">
+            <input type="password" class="input" placeholder="">
+            <section class="vibsilityToggle">
+                <svg width="35" height="25" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#939393" fill-rule="nonzero" stroke="#979797">
+                        <path
+                            d="M33.846 12.703c-.147-.17-3.653-4.178-8.489-6.632a.656.656 0 00-.873.273.628.628 0 00.279.856c3.725 1.889 6.7 4.837 7.718 5.913-1.545 1.64-7.625 7.617-14.034 7.617-2.175 0-4.367-.514-6.517-1.53a.653.653 0 00-.865.297.627.627 0 00.302.846c2.327 1.1 4.709 1.657 7.08 1.657 7.985 0 15.1-8.13 15.4-8.477a.624.624 0 00-.001-.82zM20.564 4.737c-1.457-.49-2.87-.737-4.2-.737C8.476 4 1.447 12.197 1.15 12.546a.64.64 0 00-.036.78c.089.127 2.205 3.13 5.873 5.566a.634.634 0 00.886-.18.638.638 0 00-.18-.886c-2.693-1.79-4.537-3.952-5.227-4.832 1.474-1.6 7.52-7.714 13.897-7.714 1.192 0 2.468.225 3.792.67a.631.631 0 00.81-.403.639.639 0 00-.402-.81zM27.813 1.187a.64.64 0 00-.903 0L5.187 22.91a.64.64 0 00.903.903L27.813 2.09a.64.64 0 000-.903z" />
+                    </g>
+                </svg>
+            </section>
+        </section>
+        <section class="inlineError">
+            <section class="svg">
+                <svg width="20" height="20" style="display: none;" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z"
+                            fill="#499B67" />
+                        <path
+                            d="M14.847 7.167a.527.527 0 01-.02.761l-6.42 5.924a.566.566 0 01-.8-.036l-2.47-2.734a.527.527 0 01.053-.76.568.568 0 01.784.051l2.087 2.311 6-5.536a.568.568 0 01.786.02z"
+                            stroke="#FFF" fill="#FFF" />
+                    </g>
+                </svg>
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm0 2a8 8 0 100 16 8 8 0 000-16zm0 11a1 1 0 110 2 1 1 0 010-2zm0-8a1 1 0 011 1v4a1 1 0 01-2 0V6a1 1 0 011-1z"
+                        fill="#D84F47" fill-rule="evenodd" /></svg>
+            </section>
+            <section class="errorText">At least one number</section>
+        </section>
+        <section class="inlineError">
+            <section class="svg">
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z"
+                            fill="#499B67" />
+                        <path
+                            d="M14.847 7.167a.527.527 0 01-.02.761l-6.42 5.924a.566.566 0 01-.8-.036l-2.47-2.734a.527.527 0 01.053-.76.568.568 0 01.784.051l2.087 2.311 6-5.536a.568.568 0 01.786.02z"
+                            stroke="#FFF" fill="#FFF" />
+                    </g>
+                </svg>
+                <svg width="20" height="20" style="display: none;" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm0 2a8 8 0 100 16 8 8 0 000-16zm0 11a1 1 0 110 2 1 1 0 010-2zm0-8a1 1 0 011 1v4a1 1 0 01-2 0V6a1 1 0 011-1z"
+                        fill="#D84F47" fill-rule="evenodd" /></svg>
+            </section>
+
+            <section class="errorText">Upper & lowercase letter</section>
+        </section>
+        <section class="inlineError">
+            <section class="svg">
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z"
+                            fill="#499B67" />
+                        <path
+                            d="M14.847 7.167a.527.527 0 01-.02.761l-6.42 5.924a.566.566 0 01-.8-.036l-2.47-2.734a.527.527 0 01.053-.76.568.568 0 01.784.051l2.087 2.311 6-5.536a.568.568 0 01.786.02z"
+                            stroke="#FFF" fill="#FFF" />
+                    </g>
+                </svg>
+                <svg width="20" height="20" style="display: none;" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm0 2a8 8 0 100 16 8 8 0 000-16zm0 11a1 1 0 110 2 1 1 0 010-2zm0-8a1 1 0 011 1v4a1 1 0 01-2 0V6a1 1 0 011-1z"
+                        fill="#D84F47" fill-rule="evenodd" /></svg>
+            </section>
+            <section class="errorText">8 or more Characters</section>
+        </section>
+    </section>
+</body>
+
+</html>
