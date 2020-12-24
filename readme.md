@@ -1,6 +1,9 @@
 # UI-UX HTML CSS UXCEL Standards
 
-I will post some of codes that i Wrote as an template for responsive And Standard Designing according to uxcel UI/UX courses.
+I will post some of codes that I wrote as an template for responsive And Standard Designing according to uxcel UI/UX courses and 
+> sketchFile.sketch
+File
+[Sketch File:](/sketchFiles/sketchFile.sketch)
 
 
 Navigation Bar: 
@@ -52,3 +55,19 @@ IOS Toggle Checkbox in Pure Css:
 [link to Demo!](https://re9inee.github.io/UI-UX/iosToggleCheckbox/)
 
 ![Video of iOs Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
+
+
+# UXCEL Designs itself
+
+### Original: 
+
+![Image of new Password original by UXCEL Designing Company](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/originalPasswordStrengthMeter.png)
+
+![Image of new password](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/PasswordStrengthMeter.png)
+
+
+[Sketch Template](/sketchFiles/newPassword.sketch)
+
+[link to Code!](/newPassword/)
+
+[link to Demo!](https://re9inee.github.io/UI-UX/newPassword/)
