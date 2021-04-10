@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Init */
+        body {
+            margin: 0 auto;
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+            width: 100vw;
+        }
+
+        *,
+        *::after,
+        *::before {
+            box-sizing: border-box;
+        }
+
+        /* Devs */
+        body {
+            border: 3px dotted coral;
+        }
+
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: 900 24px/1.4 -system-ui, sans-serif;
+        }
+
+        label {
+            border: 1px solid slateblue;
+        }
+
+        /*  */
+        .control-me::after {
+            content: "😃";
+            font-size: 100px;
+        }
+
+        #toggle:checked~.control-me::after {
+            content: "😩";
+        }
+    </style>
+    <link rel="stylesheet" href="hamburger-icon.css">
+</head>
+
+<body>
+    <div>
+
+        <input type="checkbox" id="toggle" class="visually-hidden">
+        <label for="toggle" class="something"></label>
+
+        <div class="control-me"></div>
+    </div>
+</body>
+
+</html>
