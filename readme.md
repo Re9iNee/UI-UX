@@ -64,10 +64,12 @@ IOS Toggle Checkbox in Pure Css:
 ![Image of new Password original by UXCEL Designing Company](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/originalPasswordStrengthMeter.png)
 
 
-### my implementation:
+### My Implementation:
 
 ![Image of new password](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/PasswordStrengthMeter.png)
 
+
+> This is just a design for a working password strength Meter
 
 [Sketch Template](/sketchFiles/newPassword.sketch)
 
