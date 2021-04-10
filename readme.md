@@ -76,3 +76,9 @@ IOS Toggle Checkbox in Pure Css:
 [link to Code!](/newPassword/)
 
 [link to Demo!](https://re9inee.github.io/UI-UX/newPassword/)
+
+
+
+## Hamburger Menu Icon (+Animation)
+![Video of Hamburger Menu Icon toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/hamburger-menu-icon/others/hamburger-menu-icon.mov)
+
