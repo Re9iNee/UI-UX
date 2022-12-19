@@ -1,84 +1,63 @@
 # UI-UX HTML CSS UXCEL Standards
 
-I will post some of codes that I wrote as an template for responsive And Standard Designing according to uxcel UI/UX courses and 
+I will post some of codes that I wrote as an template for responsive And Standard Designing according to uxcel UI/UX courses and
+
 > sketchFile.sketch
-File
-[Sketch File:](/sketchFiles/sketchFile.sketch)
+> File
+> [Sketch File:](/sketchFiles/sketchFile.sketch)
 
-
-Navigation Bar: 
+Navigation Bar:
 
 ![Image of Navigation Bars](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/2.png)
 
-Search Bar: 
+Search Bar:
 
 ![Image of Search Bars](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/1.png)
 
-Profile Card: 
+Profile Card:
 
 ![Image of Profile Cards](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/card.png)
 
-
-Login Form: 
+Login Form:
 
 ![Image of Login Form](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/login.png)
 
-
-Menu Bar: 
+Menu Bar:
 
 ![Image of Menu Bar in iPhone5s Responsive](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/MenuBar.png)
- 
 
 ![Image of Menu Bar in Wide Screen Displays ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/MenuBar2.png)
-
 
 Recipes Card:
 
 ![Image of Recipes Card ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/RecipesCard2.png)
 
-
 ![Image of Recipes Card in iPhone SE Displays](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/RecipesCard.png)
 
-
-
-Greetings: 
+Greetings:
 ![Image of Todo List Greeting ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/Greetings.png)
 
+# Atoms
 
+## iOS Toggle Checkbox:
 
-# Smaller Modules
+![Video of iOS Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
 
-IOS Toggle Checkbox in Pure Css:
+-   [Demo](https://re9inee.github.io/UI-UX/iosToggleCheckbox/)
+-   [Code](/iosToggleCheckbox/)
 
-[link to Code!](/iosToggleCheckbox/)
+## New Password Card:
 
-[link to Demo!](https://re9inee.github.io/UI-UX/iosToggleCheckbox/)
-
-![Video of iOs Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
-
-
-# UXCEL Designs itself
-
-### Original: 
-
-![Image of new Password original by UXCEL Designing Company](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/originalPasswordStrengthMeter.png)
-
-
-### My Implementation:
+this is a design for a working password strength Meter
 
 ![Image of new password](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/PasswordStrengthMeter.png)
 
+-   [Code](/newPassword/)
+-   [Demo](https://re9inee.github.io/UI-UX/newPassword/)
 
-> This is just a design for a working password strength Meter
+## Hamburger Menu Icon, Close button:
 
-[Sketch Template](/sketchFiles/newPassword.sketch)
+![Video of Hamburger Menu Icon toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/HamburgerIcon/video/example.mov)
 
-[link to Code!](/newPassword/)
-
-[link to Demo!](https://re9inee.github.io/UI-UX/newPassword/)
-
-
-
-## Hamburger Menu Icon (+Animation)
-![Video of Hamburger Menu Icon toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/hamburger-menu-icon/others/hamburger-menu-icon.mov)
-
+-   [Code](/hamburger-menu-icon/)
+-   [Demo](https://re9inee.github.io/UI-UX/HamburgerIcon/)
