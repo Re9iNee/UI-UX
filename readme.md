@@ -1,10 +1,33 @@
-# UI-UX HTML CSS UXCEL Standards
+# UI-UX Library
 
-I will post some of codes that I wrote as an template for responsive And Standard Designing according to uxcel UI/UX courses and
+I will post some of codes that I wrote as an template for responsive And Standard Designing according to Uxcel UI/UX courses and
 
-> sketchFile.sketch
-> File
-> [Sketch File:](/sketchFiles/sketchFile.sketch)
+## Atoms
+
+### iOS Toggle Checkbox:
+
+![Video of iOS Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
+
+-   [Demo](https://re9inee.github.io/UI-UX/iosToggleCheckbox/)
+-   [Code](/iosToggleCheckbox/)
+
+### New Password Card:
+
+this is a design for a working password strength Meter
+
+![Image of new password](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/PasswordStrengthMeter.png)
+
+-   [Code](/newPassword/)
+-   [Demo](https://re9inee.github.io/UI-UX/newPassword/)
+
+### Hamburger Menu Icon, Close button:
+
+![Video of Hamburger Menu Icon toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/HamburgerIcon/video/example.mov)
+
+-   [Code](/hamburger-menu-icon/)
+-   [Demo](https://re9inee.github.io/UI-UX/HamburgerIcon/)
+
+## Molecules
 
 Navigation Bar:
 
@@ -36,28 +59,3 @@ Recipes Card:
 
 Greetings:
 ![Image of Todo List Greeting ](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/Greetings.png)
-
-# Atoms
-
-## iOS Toggle Checkbox:
-
-![Video of iOS Checkbox toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/iosToggleCheckbox.mov)
-
--   [Demo](https://re9inee.github.io/UI-UX/iosToggleCheckbox/)
--   [Code](/iosToggleCheckbox/)
-
-## New Password Card:
-
-this is a design for a working password strength Meter
-
-![Image of new password](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/Images/PasswordStrengthMeter.png)
-
--   [Code](/newPassword/)
--   [Demo](https://re9inee.github.io/UI-UX/newPassword/)
-
-## Hamburger Menu Icon, Close button:
-
-![Video of Hamburger Menu Icon toggle](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/HamburgerIcon/video/example.mov)
-
--   [Code](/hamburger-menu-icon/)
--   [Demo](https://re9inee.github.io/UI-UX/HamburgerIcon/)
