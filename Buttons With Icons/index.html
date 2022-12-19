@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+        />
+
+        <link rel="stylesheet" href="../buttons.style.css" />
+        <style>
+            body {
+                display: flex;
+            }
+
+            .btn-container {
+                width: fit-content;
+
+                margin: 1rem;
+            }
+
+            button {
+                width: 100%;
+                display: flex;
+                min-width: 5rem;
+                padding-right: 10px;
+                padding-left: 10px;
+                gap: 10px;
+
+                transition: 0.2s all ease-in-out;
+            }
+
+            #setting-btn i {
+                display: flex;
+            }
+
+            button > span {
+                flex-grow: 1;
+            }
+
+            #add-btn i {
+                display: flex;
+            }
+
+            .btn-secondary:hover {
+                background-color: rgb(189, 189, 189);
+            }
+
+            .btn-primary {
+                color: #f1f1ff;
+                background-color: rgba(44, 44, 207, 0.9);
+
+                min-width: 10rem;
+            }
+
+            .btn-primary:hover {
+                color: white;
+                background-color: rgb(25, 25, 207);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="btn-container">
+            <button id="add-btn" class="btn-primary">
+                <span>Add</span> <i class="fi fi-rr-add"></i>
+            </button>
+        </div>
+
+        <div class="btn-container">
+            <button id="setting-btn" class="btn-secondary">
+                <i class="fi fi-rr-settings"></i> <span>Settings</span>
+            </button>
+        </div>
+    </body>
+</html>
