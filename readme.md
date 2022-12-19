@@ -27,6 +27,13 @@ this is a design for a working password strength Meter
 -   [Code](/hamburger-menu-icon/)
 -   [Demo](https://re9inee.github.io/UI-UX/HamburgerIcon/)
 
+### Buttons with Icons:
+
+![Video of Buttons with Icons](https://raw.githubusercontent.com/Re9iNee/UI-UX/master/IconButtons/video/example.mov)
+
+-   [Code](/IconButtons/)
+-   [Demo](https://re9inee.github.io/UI-UX/IconButtons/)
+
 ## Molecules
 
 ### Card:
